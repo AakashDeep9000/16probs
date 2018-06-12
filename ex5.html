@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script>
+		let array_with_duplicates = ['DELHI','NEWYORK','DELHI','GOA','MUMBAI','CALIFORNIA','GOA'];
+
+		function removeDuplicateUsingSet(arr){
+			let unique_array = Array.from(new Set(arr))
+			return unique_array
+		}
+
+		console.log(removeDuplicateUsingSet(array_with_duplicates));
+	</script>
+</body>
+</html>
